@@ -4,7 +4,7 @@ const options = {
 
     position: "absolute", // default: '32px'
     top: "0px",
-    bottom:"82%",
+    bottom:"83%",
     right: '15px', // default: '32px'
     time: '0.5s', // default: '0.3s'
     mixColor: '#fff', // default: '#fff'

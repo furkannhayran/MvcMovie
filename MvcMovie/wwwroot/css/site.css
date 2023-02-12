@@ -5,6 +5,7 @@ a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color:black;
 }
 
 a {
@@ -66,7 +67,19 @@ body {
 .toggle-btn{
     float:right;
 }
-.content-hr{
-    width:100%;
-        margin-top:7rem;
+.content-hr {
+    width: 100%;
+    margin-top: 7rem;
+}
+.navbarList {
+    display: flex;
+    text-decoration:none;
+    list-style-type:none;
+    margin-left:4rem;
+    align-items:center;
+    justify-content:space-around
+}
+
+.dark-mode--activated .navbar, .darkı {
+    color:#000;
 }
